@@ -1,0 +1,284 @@
+    1  pwd
+    2  ls -l
+    3  cd repogit
+    4  ls -l
+    5  cd TP_AySO/
+    6  ls -l
+    7  cat datos_usuario.txt 
+    8  cat Historial_comandos_Ivan.txt 
+    9  cat << EOF
+   10  eof
+   11  EOF
+   12  git status
+   13  cd ..
+   14  cd
+   15  cat << end
+   16  caca
+   17  tata
+   18  baba
+   19  end
+   20  man pip
+   21  history
+   22  history rm 107
+   23  history N  107
+   24  history -d 107
+   25  history
+   26  echo bash.bs 
+   27  ls -l
+   28  touch bash.bs 
+   29  ls -l
+   30  vim bash
+   31  sudo apt install vim
+   32  vim bash.bs 
+   33  rm -rf bash.bs 
+   34  ls -l
+   35  ls -a
+   36  rm -rf .bash_history 
+   37  history
+   38  sudo apt update && sudo apt upgrade
+   39  lsdisk
+   40  lsblk
+   41  poweroff
+   42  history 
+   43  sudo apt install nano
+   44  ls -l
+   45  cd repogit/
+   46  ls -l
+   47  mkdir Pruebas
+   48  cd Pruebas/
+   49  nano script_users.sh
+   50  ls -l
+   51  sudo su
+   52  ls -l
+   53  mkdir -p prueba/profe{1..3}/alumno{1..3}
+   54  ls -l
+   55  tree prueba/
+   56  cp prueba/
+   57  mv prueba/ prueba2/
+   58  ls
+   59  tree prueba2/
+   60  ls -l
+   61  cp prueba2/ prueba1/
+   62  cp -r  prueba2/ prueba1/
+   63  ls -l
+   64  rm -rf prueba1
+   65  rm -rf prueba2
+   66  ls -l
+   67  poweroff
+   68  lsmod
+   69  sudo su
+   70  cd repogit/
+   71  cd Pruebas/
+   72  mkdir -p alumno/parciales_{1..3}
+   73  tree alumno/
+   74  mkdir -p alumno/materias/parciales_{1..3}
+   75  tree alumno/
+   76  rm -rf alumno/
+   77  ls -l
+   78  mkdir -p alumno/{parciales_{1..3}, finales/notas{1..3}}
+   79  tree alumno/
+   80  rm -rf alumno/
+   81  mkdir -p alumno/{parciales_{1..3},finales/notas{1..3}}
+   82  tree alumno/
+   83  rm -rf alumno/
+   84  mkdir -p alumno/{parciales_{1..3},finales/notas{1..3}}
+   85  ls -l
+   86  tree alumno/
+   87  tree finales/
+   88  rm -rf finales/
+   89  ls -l
+   90  car /etc/shadows
+   91  cat /etc/shadow
+   92  sudo cat /etc/shadow
+   93  nano script_prueba.sh
+   94  ./  script_prueba.sh
+   95  ./ script_prueba.sh
+   96  /. script_prueba.sh
+   97  ./script_prueba.sh
+   98  chmod u+x
+   99  chmod u+x script_prueba.sh 
+  100  ./script_prueba.sh
+  101  nano script_prueba.sh 
+  102  ./script_prueba.sh
+  103  nano script_prueba.sh 
+  104  ./script_prueba.sh
+  105  touch archivo.tx < EOF >
+  106  touch archivo.tx < EOF >>
+  107  touch archivo.tx << EOF >>
+  108  hola
+  109  manola
+  110  EOF
+  111  touch archivo.tx << EOF >
+  112  hola
+  113  manola
+  114  EOF
+  115  cat /etc/users
+  116  cat /etc/user
+  117  cat /etc/group
+  118  mkdir -p alumno/{materias/parcial_{1..3},finales{aprobados,desaprobados}}
+  119  tree alumno/
+  120  rm -rf alumno/
+  121  ls -l
+  122  mkdir -p alumno/{materias/parcial_{1..3},finales{aprobados,desaprobados}}
+  123  tree alumno/
+  124  rm -rf alumno/
+  125  mkdir -p alumno/{materias/parcial_{1..3},finales/aprobados,desaprobados}
+  126  tree alumno/
+  127  rm -rf alumno/
+  128  mkdir -p alumno/{materias/parcial_{1..3},finales/{aprobados,desaprobados}}
+  129  tree alumno/
+  130  rm -rf alumno/
+  131  mkdir -p alumno/{materias/notas_{1..3},finales/{aprobados,desaprobados}}
+  132  tree alumno/
+  133  rm -rf alumno/
+  134  ls -l
+  135  nano script_prueba.sh 
+  136  ./script_prueba.sh 
+  137  nano script_prueba2.sh 
+  138  ./script_prueba2.sh 
+  139  chmod u + x script_prueba2.sh
+  140  sudo chmod u+x script_prueba2.sh
+  141  ./script_prueba2.sh 
+  142  ls -l
+  143  nano script_prueba2.sh 
+  144  ./script_prueba2.sh
+  145  ./script_prueba2.sh 
+  146  ./script_prueba.sh
+  147  ./script_prueba2.sh 
+  148  ls -l
+  149  sudo chmod u+x script_prueba2.sh
+  150  sudo chmod u+xr script_prueba2.sh
+  151  ls -l
+  152  ./script_prueba2.sh 
+  153  nano script_prueba2.sh 
+  154  ./script_prueba2.sh 
+  155  nano script_prueba2.sh 
+  156  ./script_prueba2.sh 
+  157  nano script_prueba2.sh 
+  158  ./script_prueba2.sh 
+  159  nano script_prueba2.sh 
+  160  ./script_prueba2.sh 
+  161  nano script_prueba2.sh 
+  162  ./script_prueba2.sh 
+  163  nano script_prueba2.sh 
+  164  ./script_prueba2.sh 
+  165  ls-l
+  166  ls -l
+  167  mkdir -p examen/{salidas/salida{1..3},entradas/entradas/entrada{1..3}}
+  168  tree examen/
+  169  rm -rf examen/
+  170  mkdir -p examen/{salidas/salida{1..3},entradas/entrada{1..3}}
+  171  tree examen/
+  172  rm -rf examen/
+  173  sudo groupadd g315 | useradd parcial315
+  174  cat /etc/group
+  175  sudo groupadd g315 | sudo useradd parcial315
+  176  id parcial315 
+  177  sudo groupadd g315 | sudo useradd parcial315 | usermod -aG g315 parcial315
+  178  sudo groupadd g315 | sudo useradd parcial315 |sudo usermod -aG g315 parcial315
+  179  id parcial315 
+  180  sudo userdel -r  parcial315 
+  181  sudo userdel -r parcial315 
+  182  sudo groupdel -r parcial315 
+  183  sudo groupdel -r g315 
+  184  sudo groupdel g315 
+  185  cat /etc/group
+  186  nano usarios_grupos.sh
+  187  chmod u+x usarios_grupos.sh 
+  188  ./usarios_grupos.sh 
+  189  nano usarios_grupos.sh
+  190  ./usarios_grupos.sh 
+  191  cat /etc/group
+  192  id parcial318
+  193  nano usarios_grupos.sh
+  194  ./usarios_grupos.sh 
+  195  id parcial316
+  196  nano usarios_grupos.sh
+  197  sudo userdel parcial316 
+  198  sudo userdel parcial317
+  199  sudo userdel parcial316 [B
+  200  sudo groupdel g316
+  201  sudo groupdel g317
+  202  sudo groupdel g318
+  203  cat /etc/group
+  204  ./usarios_grupos.sh 
+  205  cat /etc/group
+  206  id parcial316
+  207  exit
+  208  ls -l
+  209  cd repogit/
+  210  ls -l
+  211  git clone git@github.com:Ivan-caceres/TP_2_AySO.git
+  212  sudo apt install lvm2
+  213  lsblk
+  214  sudo fdisk /dev/sdb
+  215  sudo fdisk /dev/sdc
+  216  sudo fdisk /dev/sdd
+  217  lsblk
+  218  sudo pvcreate /dev/sdb1 /dev/sdc1 /dev/sdd1
+  219  sudo vgcreate nodocentral /dev/sdb1 /dev/sdc1 /dev/sdd1
+  220  sudo lvcreate -L 3G -n sitios nodocentral 
+  221  sudo lvcreate -L 5G -n salvas nodocentral 
+  222  sudo vgdisplay nodocentral
+  223  sudo lvextend -L +1G /dev/nodocentral/sitios
+  224  sudo resize2fs /dev/nodocentral/sitios
+  225  sudo mkfs.ext4 /dev/nodocentral/sitios
+  226  sudo mkfs.ext4 /dev/nodocentral/salvas
+  227  sudo mkdir /mnt/sitios
+  228  sudo mkdir /mnt/salvas
+  229  sudo mount /dev/nodocentral/sitios /mnt/sitios
+  230  sudo mount /dev/nodocentral/salvas /mnt/salvas
+  231  lsblk
+  232  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  233  sudo echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  234  sudo chmod u+w /mnt/sitios
+  235  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  236  sudo chmod u+x /mnt/sitios
+  237  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  238  ls -l
+  239  cd
+  240* 
+  241  sudo chmod u+w /mnt
+  242  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  243  sudo echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  244  sudo chown ivan /mnt/sitios
+  245  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  246  ls -l /mnt/sitios
+  247  sudo unmount /mnt/sitios
+  248  sudo umount /mnt/sitios
+  249  sudo umount /mnt/salvas
+  250  sudo lvremove dev/nodocentral/sitios
+  251  sudo lvremove /dev/nodocentral/sitios
+  252  sudo lvremove /dev/nodocentral/salvas
+  253  sudo vgremove /dev/nodocentral
+  254  sudo pvremove /dev/sdb1 /dev/sdc1 /dev/sdd1
+  255  lsblk
+  256  sudo fdisk /dev/sdd
+  257  lsblk
+  258  sudo fdisk /dev/sdd
+  259  lsblk
+  260  sudo fdisk /dev/sdd
+  261  lsblk
+  262  sudo mkfs.ext4 /dev/sdd1
+  263  sudo mkfs.ext4 /dev/sdd2
+  264  sudo mkfs.ext4 /dev/sdd3
+  265* 
+  266  sudo fdisk /dev/sdd
+  267  sudo mkfs.ext4 /dev/sdd5
+  268  sudo mkfs.ext4 /dev/sdd6
+  269  sudo mkfs.ext4 /dev/sdd7
+  270  sudo mkdir -p /mnt/p1
+  271  sudo mkdir -p /mnt/p2
+  272  sudo mkdir -p /mnt/p3
+  273  sudo mkdir -p /mnt/p4
+  274  sudo mkdir -p /mnt/p5
+  275  sudo mkdir -p /mnt/p6
+  276  sudo mount /dev/sdd1 /mnt/p1
+  277  sudo mount /dev/sdd2 /mnt/p2
+  278  sudo mount /dev/sdd3 /mnt/p3
+  279  sudo mount /dev/sdd5 /mnt/p4
+  280  sudo mount /dev/sdd6 /mnt/p5
+  281  sudo mount /dev/sdd7 /mnt/p6
+  282  df -h
+  283  history > /repogit//TP_2_AySO/history.txt
+  284  history > $HOME/repogit//TP_2_AySO/history.txt
