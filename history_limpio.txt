@@ -1,0 +1,76 @@
+  209  cd repogit/
+  210  ls -l
+  211  git clone git@github.com:Ivan-caceres/TP_2_AySO.git
+  212  sudo apt install lvm2
+  213  lsblk
+  214  sudo fdisk /dev/sdb
+  215  sudo fdisk /dev/sdc
+  216  sudo fdisk /dev/sdd
+  217  lsblk
+  218  sudo pvcreate /dev/sdb1 /dev/sdc1 /dev/sdd1
+  219  sudo vgcreate nodocentral /dev/sdb1 /dev/sdc1 /dev/sdd1
+  220  sudo lvcreate -L 3G -n sitios nodocentral 
+  221  sudo lvcreate -L 5G -n salvas nodocentral 
+  222  sudo vgdisplay nodocentral
+  223  sudo lvextend -L +1G /dev/nodocentral/sitios
+  224  sudo resize2fs /dev/nodocentral/sitios
+  225  sudo mkfs.ext4 /dev/nodocentral/sitios
+  226  sudo mkfs.ext4 /dev/nodocentral/salvas
+  227  sudo mkdir /mnt/sitios
+  228  sudo mkdir /mnt/salvas
+  229  sudo mount /dev/nodocentral/sitios /mnt/sitios
+  230  sudo mount /dev/nodocentral/salvas /mnt/salvas
+  231  lsblk
+  232  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  233  sudo echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  234  sudo chmod u+w /mnt/sitios
+  235  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  236  sudo chmod u+x /mnt/sitios
+  237  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  238  ls -l
+  239  cd
+  240* 
+  241  sudo chmod u+w /mnt
+  242  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  243  sudo echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  244  sudo chown ivan /mnt/sitios
+  245  echo "Archivo de prueba" > /mnt/sitios/prueba.txt
+  246  ls -l /mnt/sitios
+  247  sudo unmount /mnt/sitios
+  248  sudo umount /mnt/sitios
+  249  sudo umount /mnt/salvas
+  250  sudo lvremove dev/nodocentral/sitios
+  251  sudo lvremove /dev/nodocentral/sitios
+  252  sudo lvremove /dev/nodocentral/salvas
+  253  sudo vgremove /dev/nodocentral
+  254  sudo pvremove /dev/sdb1 /dev/sdc1 /dev/sdd1
+  255  lsblk
+  256  sudo fdisk /dev/sdd
+  257  lsblk
+  258  sudo fdisk /dev/sdd
+  259  lsblk
+  260  sudo fdisk /dev/sdd
+  261  lsblk
+  262  sudo mkfs.ext4 /dev/sdd1
+  263  sudo mkfs.ext4 /dev/sdd2
+  264  sudo mkfs.ext4 /dev/sdd3
+  265* 
+  266  sudo fdisk /dev/sdd
+  267  sudo mkfs.ext4 /dev/sdd5
+  268  sudo mkfs.ext4 /dev/sdd6
+  269  sudo mkfs.ext4 /dev/sdd7
+  270  sudo mkdir -p /mnt/p1
+  271  sudo mkdir -p /mnt/p2
+  272  sudo mkdir -p /mnt/p3
+  273  sudo mkdir -p /mnt/p4
+  274  sudo mkdir -p /mnt/p5
+  275  sudo mkdir -p /mnt/p6
+  276  sudo mount /dev/sdd1 /mnt/p1
+  277  sudo mount /dev/sdd2 /mnt/p2
+  278  sudo mount /dev/sdd3 /mnt/p3
+  279  sudo mount /dev/sdd5 /mnt/p4
+  280  sudo mount /dev/sdd6 /mnt/p5
+  281  sudo mount /dev/sdd7 /mnt/p6
+  282  df -h
+  283  history > /repogit//TP_2_AySO/history.txt
+  284  history > $HOME/repogit//TP_2_AySO/history.txt
